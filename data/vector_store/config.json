@@ -1,0 +1,13 @@
+{
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "embedding_model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "tokenizer_model": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "embedding_dim": 384,
+  "ollama_model": "phi3:mini",
+  "collection_name": "football_docs",
+  "distance_metric": "cosine",
+  "vector_store_path": "data\\vector_store",
+  "num_documents": 12,
+  "num_chunks": 15
+}
